@@ -1,0 +1,22 @@
+{
+    "name": "struzik-vladislav/epp-ext-rgp",
+    "description": "Domain Registry Grace Period(RGP) extension for the EPP.",
+    "keywords": ["epp", "extension", "rgp", "registry"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Struzik",
+            "email": "vladislav@struzik.blog"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "psr/log": "~1.0",
+        "struzik-vladislav/epp-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Struzik\\EPPClient\\Extension\\RGP\\": "src/"
+        }
+    }
+}
