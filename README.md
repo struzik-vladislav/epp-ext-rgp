@@ -11,7 +11,7 @@ Extension for [struzik-vladislav/epp-client](https://github.com/struzik-vladisla
 <?php
 
 use Struzik\EPPClient\Extension\RGP\RGPExtension;
-use Struzik\EPPClient\Extension\RGP\Request\RestoreRequest;
+use Struzik\EPPClient\Extension\RGP\Request\RGPRequestRestoreRequest;
 
 // ...
 
@@ -19,7 +19,7 @@ $client->pushExtension(new RGPExtension('urn:ietf:params:xml:ns:rgp-1.0', $logge
 
 // ...
 
-$request = new RestoreRequest($client);
+$request = new RGPRequestRestoreRequest($client);
 $request->setDomain('example.net');
 $response = $client->send($request);
 ```

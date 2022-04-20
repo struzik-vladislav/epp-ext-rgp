@@ -1,6 +1,4 @@
+.idea
 vendor
 composer.phar
 composer.lock
-
-php-cs-fixer
-.php_cs.cache
