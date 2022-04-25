@@ -3,9 +3,9 @@
 namespace Struzik\EPPClient\Extension\RGP\Tests\Request;
 
 use Struzik\EPPClient\Extension\RGP\Request\RGPReportRestoreRequest;
-use Struzik\EPPClient\Extension\RGP\Tests\EPPTestCase;
+use Struzik\EPPClient\Extension\RGP\Tests\RGPTestCase;
 
-class RGPReportRestoreRequestTest extends EPPTestCase
+class RGPReportRestoreRequestTest extends RGPTestCase
 {
     public function testReport(): void
     {

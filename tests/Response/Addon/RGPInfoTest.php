@@ -3,10 +3,10 @@
 namespace Struzik\EPPClient\Extension\RGP\Tests\Response\Addon;
 
 use Struzik\EPPClient\Extension\RGP\Response\Addon\RGPInfo;
-use Struzik\EPPClient\Extension\RGP\Tests\EPPTestCase;
+use Struzik\EPPClient\Extension\RGP\Tests\RGPTestCase;
 use Struzik\EPPClient\Response\Domain\UpdateDomainResponse;
 
-class RGPInfoTest extends EPPTestCase
+class RGPInfoTest extends RGPTestCase
 {
     public function testAddon(): void
     {

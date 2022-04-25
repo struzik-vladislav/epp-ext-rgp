@@ -2,7 +2,7 @@
 
 Domain Registry Grace Period(RGP) extension for the EPP (Extensible Provisioning Protocol).
 
-Implemented according [RFC 3915](https://tools.ietf.org/html/rfc3915) Domain Registry Grace Period Mapping for the Extensible Provisioning Protocol (EPP).
+Implemented according to [RFC 3915](https://tools.ietf.org/html/rfc3915) Domain Registry Grace Period Mapping for the Extensible Provisioning Protocol (EPP).
 
 Extension for [struzik-vladislav/epp-client](https://github.com/struzik-vladislav/epp-client) library.
 
