@@ -3,15 +3,11 @@
 namespace Struzik\EPPClient\Extension\RGP\Tests;
 
 use Psr\Log\NullLogger;
-use Struzik\EPPClient\Connection\ConnectionInterface;
-use Struzik\EPPClient\EPPClient;
 use Struzik\EPPClient\Extension\RGP\RGPExtension;
 use Struzik\EPPClient\Tests\EPPTestCase;
 
 class RGPTestCase extends EPPTestCase
 {
-    public ConnectionInterface $eppConnection;
-    public EPPClient $eppClient;
     public RGPExtension $rgpExtension;
 
     protected function setUp(): void
