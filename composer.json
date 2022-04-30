@@ -28,5 +28,8 @@
             "Struzik\\EPPClient\\Tests\\": "vendor/struzik-vladislav/epp-client/tests/",
             "Struzik\\EPPClient\\Extension\\RGP\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/"
     }
 }
